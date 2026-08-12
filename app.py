@@ -6,7 +6,7 @@ st.set_page_config(page_title="student all ", layout="centered")
 st.title("🎓  𝒮𝓉𝓊𝒹ℯ𝓃𝓉 ℳ𝒶𝓃𝒶ℊℯ𝓂ℯ𝓃𝓉 𝒮𝓎𝓈𝓉ℯ𝓂 :heart:")
 
 # Backend API Base URL Configuration
-API_URL = st.sidebar.text_input("Backend API Base URL", value="http://127.0.0.1:8000")
+API_URL = st.sidebar.text_input("Backend API Base URL", value="https://first-web-tl0p.onrender.com")
 
 # Navigation Menu
 option = st.sidebar.selectbox(
